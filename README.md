@@ -73,6 +73,16 @@ Required R packages: ggplot2, pheatmap, gridExtra, RColorBrewer, grid, reshape2.
 - Performance: increase -p up to CPU count; COSPAR can be memory-intensive.
 - Paths: R scripts assume relative filenames; adjust if running from a different directory.
 
+## Example data
+
+- loxcode_sim_optimized_E12.5 (Google Drive):
+  https://drive.google.com/drive/folders/1KmMVj-k_poIe5D2ZzrWlV1XozmAc--IH?usp=drive_link
+
+- loxcode_sim_standard_E12.5 (Google Drive):
+  https://drive.google.com/drive/folders/1vGasJosNnMdMA3WhjPAYkEsElz67DH0s?usp=drive_link
+
+Here, the “optimized” suffix denotes runs using tuned/optimized parameters, whereas “standard” denotes runs using parameters set to the mean values estimated across multiple simulations.
+
 # Acknowledgments
 This project was inspired in part by the methodology described in:
 - Weber, T.S., Biben, C., Miles, D.C., Glaser, S.P., Tomei, S., Lin, C -Y., Kueh, A., Pal, M., Zhang, S., Tam, P.P.L., Taoudi, S., Naik, S.H. (2025). LoxCode in vivo barcoding reveals epiblast clonal fate bias to fetal organs. Cell. https://doi.org/10.1016/j.cell.2025.04.026
